@@ -1,0 +1,3 @@
+*.log
+test
+__pycache__
