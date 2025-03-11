@@ -126,6 +126,21 @@ Ensure your `config.ini` file contains valid credentials and settings:
 
 ---
 
+## Purpose 
+
+The check_o365_subscription.sh script helps troubleshoot and resolve issues related to Office 365 event log subscriptions, which are important for SIEM (Security Information and Event Management) solutions.
+
+When connecting to Office 365, administrators may encounter errors such as:
+
+- Unable to start a content subscription. Terminating query thread for [Audit.SharePoint]
+- Unable to start a content subscription. Terminating query thread for [Audit.Exchange]
+- Access token error
+These errors can indicate API authentication issues, misconfigured subscriptions, or connectivity problems, leading to gaps in security monitoring.
+
+This script provides automated and basic management of Office 365 audit log subscriptions, ensuring that event logs are correctly retrieved and reducing the risk of missing critical security events in your SIEM.
+
+---
+
 ## License
 
 This project is licensed under the Apache License 2.0.  
@@ -137,6 +152,8 @@ Full text: https://www.apache.org/licenses/LICENSE-2.0
 
 - Pascal Weber (zoldax)
 - Company: Abakus Sécurité  
+
+---
 
 ## Disclaimer:
 
