@@ -2,7 +2,7 @@
 
 A Bash script for managing and auditing Office 365 event log subscriptions.
 
-[![License](https://img.shields.io/github/license/zoldax/check_siem_o365_subscription?color=44CC11)](LICENSE) [![Commit](https://img.shields.io/github/commit-activity/t/zoldax/check_siem_o365_subscription)](https://github.com/zoldax/check_siem_o365_subscription/commits/) [![Views](https://hits.sh/github.com/zoldax/check_siem_o365_subscription.svg)](https://hits.sh/github.com/zoldax/check_siem_o365_subscription/) [![Last commit](https://img.shields.io/github/last-commit/zoldax/check_siem_o365_subscription/main)](https://github.com/zoldax/check_siem_o365_subscription/commits/main)  
+[![License](https://img.shields.io/github/license/zoldax/check_siem_o365_subscription?color=44CC11)](LICENSE) [![Commit](https://img.shields.io/github/commit-activity/t/zoldax/check_siem_o365_subscription)](https://github.com/zoldax/check_siem_o365_subscription/commits/) [![Views](https://hits.sh/github.com/zoldax/check_siem_o365_subscription.svg)](https://hits.sh/github.com/zoldax/check_siem_o365_subscription/) [![Last commit](https://img.shields.io/github/last-commit/zoldax/check_siem_o365_subscription/main)](https://github.com/zoldax/check_siem_o365_subscription/commits/master)  
 
 ---
 
