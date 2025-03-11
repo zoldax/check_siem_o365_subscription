@@ -2,6 +2,11 @@
 
 A Bash script for managing and auditing Office 365 event log subscriptions.
 
+[![License](https://img.shields.io/github/license/zoldax/check_siem_o365_subscription?color=44CC11)](LICENSE)  
+[![Commit](https://img.shields.io/github/commit-activity/t/zoldax/check_siem_o365_subscription)](https://github.com/zoldax/check_siem_o365_subscription/commits/)  
+[![Views](https://hits.sh/github.com/zoldax/check_siem_o365_subscription.svg)](https://hits.sh/github.com/zoldax/check_siem_o365_subscription/)  
+[![Last commit](https://img.shields.io/github/last-commit/zoldax/check_siem_o365_subscription/main)](https://github.com/zoldax/check_siem_o365_subscription/commits/main)  
+
 ---
 
 ## Table of Contents
@@ -36,6 +41,21 @@ The `check_o365_subscription.sh` script interacts with Microsoft Office 365 to m
 - **Event Log Retrieval**: Quickly obtain Office 365 event logs.
 - **Debugging Mode**: Provides detailed information for troubleshooting API calls.
 - **Logging**: Records script activities into timestamped log files.
+
+---
+
+## Purpose 
+
+The check_o365_subscription.sh script helps troubleshoot and resolve issues related to Office 365 event log subscriptions, which are important for SIEM (Security Information and Event Management) solutions.
+
+When connecting to Office 365, administrators may encounter errors such as:
+
+- Unable to start a content subscription. Terminating query thread for [Audit.SharePoint]
+- Unable to start a content subscription. Terminating query thread for [Audit.Exchange]
+- Access token error
+These errors can indicate API authentication issues, misconfigured subscriptions, or connectivity problems, leading to gaps in security monitoring.
+
+This script provides automated and basic management of Office 365 audit log subscriptions, ensuring that event logs are correctly retrieved and reducing the risk of missing critical security events in your SIEM.
 
 ---
 
@@ -123,21 +143,6 @@ Ensure your `config.ini` file contains valid credentials and settings:
 | 1    | Configuration file missing or invalid |
 | 2    | Failed to obtain an access token      |
 | 3    | API request error                     |
-
----
-
-## Purpose 
-
-The check_o365_subscription.sh script helps troubleshoot and resolve issues related to Office 365 event log subscriptions, which are important for SIEM (Security Information and Event Management) solutions.
-
-When connecting to Office 365, administrators may encounter errors such as:
-
-- Unable to start a content subscription. Terminating query thread for [Audit.SharePoint]
-- Unable to start a content subscription. Terminating query thread for [Audit.Exchange]
-- Access token error
-These errors can indicate API authentication issues, misconfigured subscriptions, or connectivity problems, leading to gaps in security monitoring.
-
-This script provides automated and basic management of Office 365 audit log subscriptions, ensuring that event logs are correctly retrieved and reducing the risk of missing critical security events in your SIEM.
 
 ---
 
