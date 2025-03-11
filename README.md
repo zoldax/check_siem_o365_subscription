@@ -1,4 +1,4 @@
-# Check O365 Subscription Script
+# 🛠 Check Office 365 (O365) Subscription Script for SIEM 🛠
 
 A Bash script for managing and auditing Office 365 event log subscriptions.
 
