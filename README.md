@@ -54,7 +54,7 @@ These errors can indicate API authentication issues, misconfigured subscriptions
 
 This script provides automated and basic management of Office 365 audit log subscriptions, ensuring that event logs are correctly retrieved and reducing the risk of missing critical security events in your SIEM.
 
-![check_o365_subscription.sh](screenshots/check_siem_o365_subscription-MainMenu1.png)
+![check_o365_subscription.sh](screenshots/check_siem_o365_subscription-MainMenu.png)
 
 ---
 
