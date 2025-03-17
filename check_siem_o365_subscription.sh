@@ -30,7 +30,7 @@
 #     CLIENT_ID=your_client_id
 #     TENANT_ID=your_tenant_id
 #     CLIENT_SECRET=your_client_secret
-#     PROXY_URL=your_proxy_url (or NONE if not using a proxy)
+#     PROXY_URL=your_proxy_url (or NONE if not using a proxy) / Example : PROXY_URL =  http://userproxy:userpasswd@proxy.zoldax.lan:3128
 #
 # Exit Codes:
 #   0  - Success
@@ -160,6 +160,7 @@ api_call() {
 
     if [[ "$choice" -eq 1 ]]; then
     echo -e "\n✅ Subscription Status:"
+    echo "Test Pascal 1 : $response , Proxy option : $proxy_option"
     echo "$response" | tr '{}' '\n' | grep -Eo '"contentType":"[^"]+"|"status":"[^"]+"|"webhook":("[^"]+"|null)' | \
     while read -r line; do
         key=$(echo "$line" | cut -d':' -f1 | tr -d '"')

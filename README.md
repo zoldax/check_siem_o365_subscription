@@ -74,7 +74,7 @@ Create the required `config.ini` file with your credentials in the same director
 CLIENT_ID=your_client_id
 TENANT_ID=your_tenant_id
 CLIENT_SECRET=your_client_secret
-PROXY_URL=NONE  # Or set your proxy URL
+PROXY_URL=NONE  # Or set your proxy URL like : PROXY_URL =  http://userproxy:userpasswd@proxy.example.lan:3128
 ```
 
 ---
